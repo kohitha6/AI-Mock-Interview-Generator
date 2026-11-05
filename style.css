@@ -1,0 +1,74 @@
+
+/* Main background */
+.stApp {
+    background-color: #f4f6fc;
+}
+
+/* Main heading */
+h1 {
+    color: #4f46e5;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Subheadings */
+h2, h3 {
+    color: #3730a3;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #e0e7ff;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #3730a3;
+    color: white;
+    border: none;
+}
+
+/* Input fields */
+.stTextInput input,
+.stTextArea textarea {
+    border: 1px solid #a5b4fc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Select box */
+.stSelectbox div[data-baseweb="select"] {
+    border-radius: 8px;
+}
+
+/* Alerts */
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+/* Score cards */
+div[data-testid="stMetric"] {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #c7d2fe;
+}
+
+/* Progress bar */
+.stProgress > div > div > div > div {
+    background-color: #4f46e5;
+}
+
+/* Footer */
+footer {
+    visibility: hidden;
+}
